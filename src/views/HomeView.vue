@@ -1,8 +1,15 @@
 <script setup>
-import store from '../store';
-import { computed } from 'vue';
+import { onMounted, ref } from 'vue';
+
+import axiosClient from '../axiosClient';
 
 const letters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('');
+const ingredients = ref([]);
+
+onMounted(async () => {
+    const response = await axiosClient.get('/list.php?i=list');
+    ingredients.value = response.data;
+});
 </script>
 
 <template>
@@ -15,4 +22,6 @@ const letters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('');
             </router-link>
         </div>
     </div>
+
+    <pre>{{ ingredients }}</pre>
 </template>
