@@ -1,7 +1,21 @@
-# Vue 3 + Vite
+> [!Warning]
+> This project was paused to focus on React-based learning.
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+> [!IMPORTANT]
+> This is a practice project that was created while following along with [The Codeholic](https://www.youtube.com/@TheCodeholic)'s [Built Complete Vue 3/Vuex application in 3 hours](https://www.youtube.com/watch?v=cfiN8lCA3RM) YouTube tutorial[^1].
+> [^1]: See [TheCodeholic](https://github.com/thecodeholic)'s [vue-meals-app](https://github.com/thecodeholic/vue-meals-app).
+>
+> **Languages, Technologies, and Tools**
+>
+> <a href="https://github.com/LelouchFR/skill-icons"><img src="https://go-skill-icons.vercel.app/api/icons?i=css" alt="CSS" title="CSS" /></a>
+> <a href="https://github.com/LelouchFR/skill-icons"><img src="https://go-skill-icons.vercel.app/api/icons?i=html" alt="HTML" title="HTML" /></a>
+> <a href="https://github.com/LelouchFR/skill-icons"><img src="https://go-skill-icons.vercel.app/api/icons?i=js" alt="JavaScript" title="JavaScript" /></a>
+> <a href="https://github.com/LelouchFR/skill-icons"><img src="https://go-skill-icons.vercel.app/api/icons?i=npm" alt="npm" title="npm" /></a>
+> <a href="https://github.com/LelouchFR/skill-icons"><img src="https://go-skill-icons.vercel.app/api/icons?i=tailwind" alt="Tailwind CSS" title="Tailwind CSS" /></a>
+> <a href="https://github.com/LelouchFR/skill-icons"><img src="https://go-skill-icons.vercel.app/api/icons?i=vscode" alt="Visual Studio Code" title="Visual Studio Code" /></a>
+> <a href="https://github.com/LelouchFR/skill-icons"><img src="https://go-skill-icons.vercel.app/api/icons?i=vite" alt="Vite" title="Vite" /></a>
+> <a href="https://github.com/LelouchFR/skill-icons"><img src="https://go-skill-icons.vercel.app/api/icons?i=vue" alt="Vue.js" title="Vue.js" /></a>
 
-## Recommended IDE Setup
+# Vue Meals App
 
-- [VS Code](https://code.visualstudio.com/) + [Vue - Official](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (previously Volar) and disable Vetur
+Receipt search app built with Vue.js.
